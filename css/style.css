@@ -1,0 +1,94 @@
+img{
+    width: 100%;
+    height: 99%;
+    object-fit: cover;
+}
+.hidden{
+    display: none;
+}
+#clock{
+    font-size: 60px;
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#login-form{
+    font-size: 30px;
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-49%, 10%);
+}
+#login-form button{
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 900;
+    color: #fff;
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    cursor: pointer;
+    width: max-content;
+    transition: 0.25s ease;
+}
+#greeting{
+    font-size: 20px;
+    color: cornsilk;
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-49%, 10%);
+}
+#todo-form, #todo-list{
+    font-size: 20px;
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-49%, -20%);
+}
+#todo-form input::placeholder{
+    font-size: 12px;
+    text-align: center;
+}
+#todo-list{
+    font-size: 15px;
+    font-family: 'Gugi', cursive;
+    color: cornsilk;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-49%, -20%);
+}
+ul{
+    font-size: 15px;
+    font-family: 'Gugi', cursive;
+    list-style-type: square;
+}
+#lyric{
+    width: 100%;
+    font-size: 10px;
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-49%, 50%);
+}
+#weather{
+    font-size: 15px;
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
